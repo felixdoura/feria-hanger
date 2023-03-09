@@ -11,7 +11,7 @@ const controller = {
 
         Products.findAll()
             .then(products => {
-                res.render('index', {style: "/css/styleHome.css", title: 'Honky Caps', products: products})
+                res.render('index', {style: "/css/styleHome.css", title: 'Feria Hanger', products: products})
             })
 
     },
